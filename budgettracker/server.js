@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget_db", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://Ningthanom:Ningthangom123@cluster0.dm7f2.mongodb.net/BudgetTracker?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useFindAndModify: false
 })
