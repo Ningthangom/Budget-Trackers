@@ -2,6 +2,7 @@
 
 This application allows the users to add data offline which still displays but add that data to the data base when the application is back online.
 
+The app is hosted live here: https://fathomless-springs-43403.herokuapp.com
 
 # offline
 ![Image of offline](/public/images/offlinening.png)
